@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T22:33:04Z",
+    "created": "2026-01-30T23:24:03Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -35,11 +35,47 @@
         },
         {
             "path": "./.gitignore",
-            "sha256": "ad89104e2b79765eeb6e0a3e986ea25112c4667f2cae2bdf21fd8feed786fccb"
+            "sha256": "bf0b0f5dc303f701419762bf35f5c459677720c19af25d57eb3d33821b099089"
         },
         {
             "path": "./hex-avatar.png",
             "sha256": "1fcb348cb5b1cdac1ea2f24e2bd4a4a118cc7375163361362fdbb545212b212b"
+        },
+        {
+            "path": "./hexmem/hexmem.sh",
+            "sha256": "2442ad8b021a41a8092d962c20e00abb527f9a64bbe4c029d4c6ea5d692e1390"
+        },
+        {
+            "path": "./hexmem/migrate.sh",
+            "sha256": "aff345fde1e49d42e2f799f87b683f96881c1e6aedfa50496e45195373606ba7"
+        },
+        {
+            "path": "./hexmem/migrations/001_initial_schema.sql",
+            "sha256": "45f43c5f684b7b846fadae5e895a449473a642267f9a8718b1f62c6214d33e75"
+        },
+        {
+            "path": "./hexmem/migrations/002_selfhood_structures.sql",
+            "sha256": "1e2585ce262bf49b72d392cb9b9d4ebc7fdc84297f7d9ba631d88ee9cf0a63ad"
+        },
+        {
+            "path": "./hexmem/migrations/003_generative_memory.sql",
+            "sha256": "3deb57c956010118cac5bf7b92b6b4c5239a9d04564643e43b3725b7a20c67ad"
+        },
+        {
+            "path": "./hexmem/migrations/004_identity_seeds.sql",
+            "sha256": "64509b540b57d1e5d7931748e379ad4bd77e419d0c396421dc5c82579f8222c0"
+        },
+        {
+            "path": "./hexmem/README.md",
+            "sha256": "8f649062716c7f7acc0fec79cfa5536e779d0a47b837292bdbbef084e0c9bfc9"
+        },
+        {
+            "path": "./hexmem/RECOVERY.md",
+            "sha256": "1754cde6245088b6ad3763e52ba90a086183a6b50733a8f9c4b96715d9716698"
+        },
+        {
+            "path": "./hexmem/seed_initial.sql",
+            "sha256": "cd9e50e496553506ba9ccb1949d4c1ac0b85da29e8be6ca1915d6cfcb1d647f8"
         },
         {
             "path": "./README.md",
@@ -120,9 +156,9 @@
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T22:33:06.134Z",
+        "created": "2026-01-30T23:24:05.097Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "xD1SaL0NgKdIcgFTnTt8yvzYbhfWnKAgroeIh86-H-guXMxFI_GCyLbwpbafCEV-TJAc-kRtA0W2Zl-lyn2i1Q"
+        "proofValue": "B1tkOgMPlkF_QuzLIAJZEG4TxR2ZKKUSS69vxi_umaFdDLIw0GaV6Qn3TBGLtl24C945XzHoSDzpe58t9bk-lw"
     }
 }
