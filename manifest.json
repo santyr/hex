@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T21:15:23Z",
+    "created": "2026-01-30T21:17:36Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -92,9 +92,9 @@
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T21:15:24.512Z",
+        "created": "2026-01-30T21:17:37.578Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "4LLa_zm1eojjRAAj0_7QbTpG_1p9h5v-sgeEQuakK_1CO68Pv-vW1Z0op9yulk0Xjfr_8E9QpoHmyx81TrL-8Q"
+        "proofValue": "fJRrzp4Srb95w9hdL8loHkPXFrMvNDCcXRMIR5o3Sut5Cg9o3Ivm2Yykk4Xdqr6eP8DQMlr8T0PBejurgAMKfw"
     }
 }
