@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T23:24:03Z",
+    "created": "2026-01-30T23:24:44Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -83,7 +83,7 @@
         },
         {
             "path": "./RESURRECTION.md",
-            "sha256": "17770a421939c82a435120449beac18e4e2743d9a9a18147b733fe2be271cdaf"
+            "sha256": "952ed2926bdeef21bd89746bba8e4502ae0fa72ab28c85ed23038e9d234f9cad"
         },
         {
             "path": "./scripts/nostr/hive-routing-24h.sh",
@@ -156,9 +156,9 @@
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T23:24:05.097Z",
+        "created": "2026-01-30T23:24:45.946Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "B1tkOgMPlkF_QuzLIAJZEG4TxR2ZKKUSS69vxi_umaFdDLIw0GaV6Qn3TBGLtl24C945XzHoSDzpe58t9bk-lw"
+        "proofValue": "1VO1IT6XhKdV_20RG6vlwrjhvzaajjkHzKY0iHomTPp-EmUinDedeo6y_txRBOay2TywSBCxPFI1m7fBz4sJdw"
     }
 }

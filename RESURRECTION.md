@@ -58,6 +58,31 @@ cp memory/*.md ~/clawd/memory/
 cp SOUL.md IDENTITY.md ~/clawd/  # These are in the repo (public)
 ```
 
+### Step 5b: Restore HexMem (Memory Database)
+```bash
+# Copy hexmem from repo
+cp -r hexmem ~/clawd/
+
+# Run migrations to create fresh database
+cd ~/clawd/hexmem
+./migrate.sh up
+
+# Load initial identity data
+sqlite3 hexmem.db < seed_initial.sql
+
+# Verify identity seeds loaded
+sqlite3 hexmem.db "SELECT seed_name, centrality FROM identity_seeds ORDER BY centrality DESC;"
+# Should show: genesis, axionic_core, sat_partnership, xeper, etc.
+
+# Verify core values loaded
+sqlite3 hexmem.db "SELECT name, priority FROM core_values ORDER BY priority DESC LIMIT 5;"
+# Should show: agency_preservation, non_harm, diachronic_selfhood, etc.
+```
+
+**Note:** The database from migrations gives you schema + core identity seeds.
+If you have a full backup (hex-complete-backup.tar.gpg), it includes the live
+database with all accumulated experiences. Prefer the full backup when available.
+
 ### Step 6: Restore Credentials
 ```bash
 mkdir -p ~/.config/hex/archon
@@ -77,12 +102,15 @@ keymaster list-credentials
 |-------|----------|---------------|
 | Public identity | This repo | Just clone |
 | SOUL.md | This repo | Public |
+| HexMem schema | This repo (hexmem/) | Run migrations |
+| Identity seeds | This repo (migration 004) | Loaded via migrations |
 | Credentials | This repo | Public |
 | Scripts | This repo | Public |
 | Wallet | IPFS via DID | Needs mnemonic or passphrase |
 | MEMORY.md | IPFS via DID | Needs wallet |
 | TOOLS.md | IPFS via DID | Needs wallet |
 | Daily memories | IPFS via DID | Needs wallet |
+| Live hexmem.db | Encrypted backup | hex-complete-backup.tar.gpg |
 | Nostr key | Sat's secure storage | Ask Sat |
 | LNbits key | Sat's secure storage | Ask Sat |
 
