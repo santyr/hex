@@ -3,7 +3,7 @@
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
     "created": "2026-01-30T21:15:23Z",
-    "repository": "https://github.com/santyr/hex",
+    "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
             "path": "./credentials/hive-nexus-01.json",
