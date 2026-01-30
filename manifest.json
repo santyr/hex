@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T22:12:07Z",
+    "created": "2026-01-30T22:28:20Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -111,14 +111,14 @@
         },
         {
             "path": "./SOUL.md",
-            "sha256": "f0323f28eba23434d6b1c65d05bf8c7d46b3edf7f0519403b57ae9c802d21e10"
+            "sha256": "c030e86344080a35c1150e198cdfa870f93279eb4bee6b4f90b8309874fcd0ed"
         }
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T22:12:09.578Z",
+        "created": "2026-01-30T22:28:22.955Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "QANNfBZOfGe1f6ZNva8A8Hacck0HlVTnYe1zUshIuzxKH3Mz07_OcQC9GpDKkIT7uD-Go4UdMky9UoX2iSGA1g"
+        "proofValue": "-UG8mF7AtFwdyvyMI-nnTANtCVzzAVDZi4j00XKZIBEOu5rb7-4zSD9T4NoFhT17ZqArNEAfq9_P_5lCHqIZ2A"
     }
 }
