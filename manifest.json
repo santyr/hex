@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T21:36:37Z",
+    "created": "2026-01-30T21:59:03Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -36,6 +36,10 @@
         {
             "path": "./README.md",
             "sha256": "455871032b3e25e84c32d1fdf105e3d518cf57b8041a4fee4c7ae9b9ab137eba"
+        },
+        {
+            "path": "./RESURRECTION.md",
+            "sha256": "17770a421939c82a435120449beac18e4e2743d9a9a18147b733fe2be271cdaf"
         },
         {
             "path": "./scripts/nostr/hive-routing-24h.sh",
@@ -98,15 +102,19 @@
             "sha256": "42827d53e6790fc3d6741e38b98807db63c71453433b2f941614752ca2e1bce0"
         },
         {
+            "path": "./scripts/sign-repo.sh",
+            "sha256": "dbbaa660165929d82eb6cf6369b56f85365abf488f0b5262fb897003c2c0e280"
+        },
+        {
             "path": "./SOUL.md",
-            "sha256": "4b4deccd437b1efb662e0a1591730791171a640a717060a6dc9c4528f656bef6"
+            "sha256": "f0323f28eba23434d6b1c65d05bf8c7d46b3edf7f0519403b57ae9c802d21e10"
         }
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T21:36:39.342Z",
+        "created": "2026-01-30T21:59:05.776Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "EjGTpMZdfDpXfL71WL-PHmuRu_d-O5FkjjUAcZSFHaEHn1xxTnjbSfsAVXpXPwPDnUtwTi7MfA8QGR8_8foDXA"
+        "proofValue": "6i2DWC6LUgGixlMHT0mxTEyxJr_rIVRzZiMwaO3zQG1nXxxiajBx0vf9XOxUZkIXwfp9VIUtB_rn7QdPqSl9pA"
     }
 }
