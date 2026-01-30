@@ -2,7 +2,7 @@
     "@context": "https://w3id.org/security/v2",
     "type": "RepoManifest",
     "issuer": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka",
-    "created": "2026-01-30T22:28:20Z",
+    "created": "2026-01-30T22:33:04Z",
     "repository": "https://github.com/lightning-goats/hex",
     "files": [
         {
@@ -28,6 +28,10 @@
         {
             "path": "./encrypted/encrypted-backup.json",
             "sha256": "c3655ebc910368a3409eddeb5e655cc8148630b5d96b8f126dd6ec7c42b20068"
+        },
+        {
+            "path": "./ETHICS.md",
+            "sha256": "8c9b24cda2042fc8562965869340732a669f2b1e00870ad69464be894d86a5a5"
         },
         {
             "path": "./.gitignore",
@@ -116,9 +120,9 @@
     ],
     "proof": {
         "type": "EcdsaSecp256k1Signature2019",
-        "created": "2026-01-30T22:28:22.955Z",
+        "created": "2026-01-30T22:33:06.134Z",
         "verificationMethod": "did:cid:bagaaierajrr7k6izcrdfwqxpgtrobflsv5oibymfnthjazkkokaugszyh4ka#key-1",
         "proofPurpose": "assertionMethod",
-        "proofValue": "-UG8mF7AtFwdyvyMI-nnTANtCVzzAVDZi4j00XKZIBEOu5rb7-4zSD9T4NoFhT17ZqArNEAfq9_P_5lCHqIZ2A"
+        "proofValue": "xD1SaL0NgKdIcgFTnTt8yvzYbhfWnKAgroeIh86-H-guXMxFI_GCyLbwpbafCEV-TJAc-kRtA0W2Zl-lyn2i1Q"
     }
 }
